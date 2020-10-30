@@ -1,0 +1,17 @@
+{
+    "script": {
+        "prepare": "lerna run prepare",
+        "start": "lerna run dev  --parallel --stream"
+    },
+    "workspaces": {
+        "packages": [
+            "./Application",
+            "./library"
+        ],
+        "nohoist": [
+
+        ]
+    },
+
+    "version": "0.0.0"
+}

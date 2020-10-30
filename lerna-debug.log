@@ -1,0 +1,15 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   globs: [ [], 'scope=Application' ],
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'C:\\Users\\Long\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
+0 silly argv   pkg: 'wa-core'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath C:\Users\Long\Desktop\Work\Web\lerna monorepo\lerna-repo
+3 error TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Array
+3 error     at validateString (internal/validators.js:120:11)
+3 error     at Object.resolve (path.js:139:9)
+3 error     at C:\Users\Long\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\add\index.js:40:59
+3 error     at Array.map (<anonymous>)
+3 error     at AddCommand.initialize (C:\Users\Long\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\add\index.js:40:44)
